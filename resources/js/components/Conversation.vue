@@ -26,6 +26,7 @@ export default {
     methods: {
         sendMessage(text) {
             console.log(text);
+
         }
     },
     components: {MessageComposer, MessageFeed}

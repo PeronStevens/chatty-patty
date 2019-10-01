@@ -12,8 +12,8 @@ export default {
     methods: {
         send(e) {
             e.preventDefault();
-            
-            if (this.message = '') {
+
+            if (this.message == '') {
                 return;
             }
 

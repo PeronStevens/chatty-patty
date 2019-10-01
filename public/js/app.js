@@ -2006,7 +2006,7 @@ __webpack_require__.r(__webpack_exports__);
     send: function send(e) {
       e.preventDefault();
 
-      if (this.message = '') {
+      if (this.message == '') {
         return;
       }
 
